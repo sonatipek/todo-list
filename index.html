@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List | @sonatipek</title>
+
+    <!-- Fontawesome includede with CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Normalize.css -->
+    <link rel="stylesheet" href="./style/normalize.css">
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="./style/global.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./style/main.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="./style/responsive.css">
+</head>
+<body>
+    <!-- Social Media Accounts -->
+    <h2>@sonatipek social</h2>
+    <nav>
+        <a href="https://www.sonatipek.com/" target="_blank"><i class="fa-solid fa-globe"></i></a>
+        <a href="https://www.github.com/sonatipek" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+        <a href="https://www.linkedin.com/in/sonatipek/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://medium.com/@sonatipek" target="_blank"><i class="fa-brands fa-medium"></i></a>
+
+    </nav>
+
+    <!-- Main Section -->
+    <main>
+        
+        <h1><i class="fa-solid fa-list"></i> Yapılacaklar</h1>
+        <p>Gün içerisinde yapmayı planladığınız işlerinizi buraya ekleyebilirsiniz</p>
+
+        <!-- To-do listing section -->
+        <ul class="todo-list">
+            <!-- <li><i class="fa-solid fa-square-check test"></i> lorem <i class="fa-solid fa-trash"></i></li> -->
+        </ul>
+
+
+        <!-- To-do list add input -->
+        <form action="#" class="todo-form" method="post">
+            <input type="text" name="todo-input" id="todo-input" placeholder="To-do Giriniz">
+            <button type="submit" class="add-button"><i class="fa-solid fa-circle-plus"></i>Ekle</button>
+        </form>
+
+        <!-- Informations -->
+        <div class="info-screen">
+            <div class="info info-warning d-none">
+                <div class="info-head">
+                    <h3><i class="fa-solid fa-bell"></i>Başarısız</h3>
+                </div>
+
+                <div class="info-desc">
+                    <p><i class="fa-solid fa-triangle-exclamation"></i>Silme işlemini iptal ettiniz.</p>
+                </div>
+            </div>
+
+            <div class="info info-success d-none">
+                <div class="info-head">
+                    <h3><i class="fa-solid fa-bell"></i>Başarılı</h3>
+                </div>
+
+                <div class="info-desc">
+                    <p><i class="fa-solid fa-circle-check"></i>Silme işlemi başarılı.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Informations End-->
+        
+    </main>
+
+    <footer>
+        <h5 class="author"><a href="https://sonatipek.com">Sonat Saygın İpek</a> tarafından tasarlanmış ve  kodlanmıştır.</h5>
+    </footer>
+    <script src="./script/index.js"></script>
+</body>
+</html>

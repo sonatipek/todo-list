@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+:root {
+  --dark-bg: #111827;
+  --secondary: #6b7280;
+  --success: #0f766e;
+  --warning: #a9792b;
+  --white: #f9fafb;
+  --black: #333;
+  --attention: #be185d;
+  --gray: #e5e7eb;
+  --dark-bg-2: #1f2937;
+  --dark-bg-3: #374151;
+  --dark-bg-4: #4b5563;
+}
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--dark-bg);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+i,
+ul,
+li {
+  color: var(--white);
+}
+
+a {
+  text-decoration: none;
+}
+
+li > i {
+  cursor: pointer;
+}
+
+.complated-todo{
+  text-decoration: line-through;
+  color: var(--secondary);
+  opacity: .5;  
+}
+
+.deleted-todo{
+  transform: scale(0);
+}
+
+/* İnfo Alerts */
+.info{
+  margin-top:2rem;
+}
+.info .info-head{
+  padding-left: 1rem;
+  padding-top: .75rem;
+}
+.info .info-head h3{
+  font-weight: bold;
+}
+.info .info-head h3 i{
+  padding-right: 1.5rem;
+}
+
+.info .info-desc{
+  padding-left: 1rem;
+  padding-top: 1.5rem;
+}
+.info .info-desc p{
+  color: white;
+  padding-bottom:1.75rem ;
+
+}
+.info .info-desc p i{
+  padding-right: 1.5rem;
+  font-size: 1.5rem;
+}
+
+
+/* Info Warning */
+.info.info-warning{
+  background-color: var(--warning);
+}
+.info.info-warning .info-head{
+  border-bottom: 3px solid #9f640673;
+}
+.info.info-warning .info-head h3{
+  color: #9f6406;
+}
+.info.info-warning .info-head h3 i{
+  color: #9f6406;
+}
+
+/* Info Success */
+.info.info-success{
+  background-color: var(--success);
+}
+.info.info-success .info-head{
+  border-bottom: 3px solid #03443e5d;
+}
+.info.info-success .info-head h3{
+  color: #03443e5d;
+}
+.info.info-success .info-head h3 i{
+  color: #03443e5d;
+}
+
+/* Display none */
+.d-none{
+  display: none;
+}
+
+.d-block{
+  display: block;
+}

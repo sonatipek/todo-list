@@ -1,0 +1,22 @@
+/* On screens that are 992px or less */
+@media screen and (max-width: 992px) {
+    body {
+
+        width: 70vw;
+        height: 70vh;
+    }
+    main{
+        padding: 25px;
+    }
+
+  }
+  
+/* On screens that are 600px or less */
+@media screen and (max-width: 600px) {
+    body {
+        width: 95vw;
+    }
+    main{
+        padding: 15px;
+    }
+}
