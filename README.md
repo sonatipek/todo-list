@@ -8,7 +8,7 @@ I used CSS and JavaScript.
 The todos you enter are registered in the local storage and when you delete the to-do's, it also deletes it from the UI and local storage.
 
 I took care to write clean code. I hope I succeeded. And I would appreciate it if you could give me feedback on this matter.
-
+The project is an old project that I just decided to put on GitHub.
 Happy Codding
 
 
